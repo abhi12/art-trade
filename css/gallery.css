@@ -1,0 +1,166 @@
+/*gallery general*/
+
+#container {
+	padding-top:70px;
+	width:100%;
+}
+
+#g_heading {
+	position:relative;
+	height:100px;	
+}
+
+.g_logo {
+	display:inline;
+}
+
+#g_main {
+	min-height:350px;
+	width:90%;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+#g_nav {
+	position:fixed;
+	float:left;
+	width:15%;
+	font-size:1.4em;
+}
+
+#g_nav li {
+	padding:10px 0 10px 0;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	list-style-type:none;
+	text-align:center;
+}
+
+#container a {
+	text-decoration:none;
+	color:#000;
+}
+
+#container a:hover {
+	color:#ccc;
+}
+
+#g_content {
+	font-size:1.0em;
+	width:84%;
+	padding-top:20px;
+	/*height:1000px;*/
+	background-color:#fff;
+	float:right;
+	margin:auto;
+	/*border:2px solid black;*/
+}
+
+/*gallery home*/
+.g_home {
+	min-height:250px;
+	width:100%;
+}
+
+.g_desc {
+	padding-left:5%;
+	-webkit-margin-before: 0;
+	line-height:1.8em;
+	max-height:20%;
+}
+
+.g_des {
+	width:55%;
+	max-height:20%;
+	float:left;	
+}
+
+.g_image {
+	height:25%;
+	width:35%;
+	float:right;
+}
+
+.g_img {
+	width:100%;
+	float:right;
+}
+
+.g_event {
+	margin-top:30px;
+}
+
+.g_curr ,.g_up, .g_past {
+	text-align:center;
+	margin:auto;
+	margin-top:20px;
+	clear:both;
+}
+
+#g_currt,#g_pastt,#g_upt {
+	font-size:1.4em;
+	font-weight:bold;
+}
+
+.g_currul,.g_pastul,.g_upul{
+	-webkit-padding-start:0;
+	margin:auto;
+	list-style-type:none;
+}
+
+.g_currul li, .g_pastul li, .g_upul li {
+	margin:auto;
+	margin:2% 2% 2% 2%; 
+	display:inline-block;
+}
+
+/*gallery artworks*/
+.g_artist {
+	-webkit-margin-before: 0;
+	font-weight:bold;
+	margin-left:3%;
+	text-decoration:none;
+	color:#000;
+	clear:both;
+}
+
+.g_contentd {
+	min-height:300px;
+	margin-bottom:30px;
+}
+
+.g_artli {
+	float:left;	
+	list-style-type:none;
+	margin:1% 1% 3% 1%;	
+}
+
+.g_artul {
+	-webkit-padding-start:0;
+}
+
+.g_art_name {
+	font-style:italic;
+	text-decoration:none;
+	color:#000;
+}
+
+.g_art_name:hover {
+	color:#ccc;
+}
+
+.g_art {
+	display:inline-block;
+}
+
+/*gallery artists*/
+.g_artistc {
+	display:inline-block;
+	height:60px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.g_artistl {
+	font-weight:bold;
+}

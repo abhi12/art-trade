@@ -1,0 +1,19 @@
+.events_wrapper {
+	margin-top:80px;
+	width:100%;
+}
+
+.events_wrapper a {
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+.events_wrapper a:hover {
+	color:#ccc;
+}
+
+.e_f_title {
+	text-align:center;
+	font-size:1.6em;
+	-webkit-margin-before: 0;
+}

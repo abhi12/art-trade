@@ -1,0 +1,61 @@
+#cover {
+	height:500px;
+	width:100%;
+	padding-top:100px;
+	text-align:center;
+}
+
+#content {
+	width:80%;
+	height:900px;
+	margin:0 auto;
+	text-align:center;	
+}
+
+#content a {
+	text-decoration:none;
+	color:#000;
+	font-style:bold;
+}
+
+#content a:hover {
+	color:#ccc;
+}
+
+#event_desc {
+	width:100%;
+	background:#fff;
+	text-align:center;
+	min-height:300px;
+	font-size:1.2em;
+}
+
+#event_name {
+	font-size:1.3em;
+	font-style:italic;
+}
+
+#events_artworks {
+	height:500px;
+	width:100%;
+	text-align:center;
+}
+
+#event_art {
+	list-style-type:none;
+	width:100%;
+	margin:auto;
+	-webkit-padding-start:0;
+	margin-top:40px;
+}
+
+#event_art li {
+	display:inline-block;
+	margin:1% 1% 1% 1%;
+	list-style-type:none;
+}
+
+.e_art_name {
+	font-style:italic;
+	font-size:0.8em;
+}
