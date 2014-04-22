@@ -55,8 +55,8 @@ $mail->SMTPDebug  = 2;
 $mail->SMTPSecure = "ssl";                      // sets the prefix to the servier
 $mail->Host       = "smtp.gmail.com";           // sets GMAIL as the SMTP server
 $mail->Port       = 465;	                        // set the SMTP port for the GMAIL server
-$mail->Username   = 'spectrartindia@gmail.com';           // your GMAIL account
-$mail->Password   = 'bits_pilani';                 // GMAIL password
+$mail->Username   = '';           // your GMAIL account
+$mail->Password   = '';                 // GMAIL password
 
 $mail->SetFrom($from, $from_name);
 $mail->AddReplyTo($from, $from_name);
